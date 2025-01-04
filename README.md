@@ -1,6 +1,4 @@
-https://github.com/berthutapea/berthutapea-portfolio?tab=readme-ov-file
-https://mayur-pawar-portfolio.netlify.app/
-
+Live server- https://mayurpawar-portfolio.netlify.app/
 
 <h1 align ="center" >Mayur Pawar | Portfolio</h1>
 
