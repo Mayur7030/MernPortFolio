@@ -1,5 +1,4 @@
 import React from "react";
-import Lottie from "react-lottie";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -16,7 +15,8 @@ import {
   SiAdobephotoshop,
   SiFirebase,
 } from "react-icons/si";
-import man from "../../../assets/man.json";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import man from '../../../assets/man.lottie'
 
 const MySkill = () => {
   const languages = [
@@ -44,14 +44,6 @@ const MySkill = () => {
     },
   ];
 
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: man,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
   return (
     <div className="pt-24">
       <h1 className="text-4xl font-semibold drop-shadow-md text-center mb-8">
@@ -105,7 +97,7 @@ const MySkill = () => {
           </div>
         </div>
         <div>
-          <Lottie options={defaultOptions} height={400} width={360} />
+ <DotLottieReact src={man} loop autoplay />
         </div>
       </div>
     </div>
